@@ -7,7 +7,7 @@ namespace PresentationHTML
         public HomePage()
         {
             InitializeComponent();
-            MessageBox.Show(this, "Ceci est une application expérimentale développée par Yanis AZOUAOUI, 1STI2D2. Si il y a des problèmes merci de me le signaler", "Information - Developpement");
+            MessageBox.Show(this, "Ceci est une application expérimentale développée par Yanis AZOUAOUI, 1STI2D2. S'il y a des problèmes merci de me le signaler", "Information - Developpement");
 
             loadform(new PresentationHTML.pages.Page1());
         }

@@ -42,7 +42,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(405, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(541, 225);
+            this.label1.Size = new System.Drawing.Size(432, 240);
             this.label1.TabIndex = 14;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.Click += new System.EventHandler(this.label1_Click);

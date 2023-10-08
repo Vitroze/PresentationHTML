@@ -58,22 +58,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Malheureusement suite a un problème, le code python ne veut pas 
-s'exécuter sur les PC du lycée. J'ai donc dû passer a un autre 
+    <value>Malheureusement suite à un problème, le code python ne veut pas 
+s'exécuter sur les PC du lycée. J'ai donc dû passer par un autre 
 chemin pour avoir ce résultat.
-J'ai utilisé le logiciel figma et mettre le constract a fond.
+J'ai utilisé le logiciel figma et mis la saturation au plus bas.
 Voici le code css.
-Pour cela nous avons utilisés plusieurs balises.
-margin:auto; pour adapter a tout écran et mettre l'image a
-la bonne dimension.background-image --&gt; Pour mettre l'image.
-background-repeat: no-repeat --&gt; Pour éviter répeter l'image
-a l'infini. background-position:center --&gt; Pour centrer l'image
+Pour cela nous avons utilisé plusieurs balises.
+margin:auto; pour adapter à tout écran et mettre l'image à
+la bonne dimension. background-image --&gt; Pour mettre l'image.
+background-repeat: no-repeat --&gt; Pour éviter de répeter l'image
+à l'infini. background-position:center --&gt; Pour centrer l'image
 background-size:cover; --&gt; Met à l'échelle l'image 
 (tout en préservant ses proportions) à la taille la plus 
 petite possible pour remplir le conteneur
 background-attachment:fixed; Elle permettra de ne pas déplacer
-notre image si on doit zoomer, dézoomer défilet en bas ou en haut
-width et height:auto permet définir la taille et la largeur 
+notre image si on doit zoomer, dézoomer, défiler en bas ou en haut.
+width et height:auto permet de définir la taille et la largeur 
 automatiquement. overflow:hidden; permet de cacher le texte ou 
 une image si elle dépasse un div ou autre. Attention celle-ci n'a pas 
 de barre de défilement.</value>

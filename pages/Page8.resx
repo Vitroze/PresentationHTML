@@ -58,26 +58,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Interrons-nous au côté CSS, en première temps nous allons définir la 
+    <value>Intéressons-nous au côté CSS, en premier temps nous allons définir la 
 class .upbottom. 
 * align-items:center permettra de centrer le texte et les items suivant
 la taille du upbottom. background-color:black permettra de définir le 
-fond en noir. display:flex permettra a l'élement de se comporter en 
-"bloc" et collera son précédant.
+fond en noir. display:flex permettra à l'élement de se comporter en 
+"bloc" et collera son précédent.
 color:white permettra de définir la couleur du texte.
 font-familly permettra de définir la police d'écriture du texte
 position:relative; permettra l'emplacement qu'on veut sans 
-que les autres boxs se modifies.
-Dans les autres class nous allons utilisés :
+que les autres boxs ne se modifient.
+Dans les autres class nous allons utiliser
 width, height, margin-right et margin-left. Comme vous avez pu 
 voir, nous utilisons des pourcentages et des rem au lieu des pixels.
-Celui-ci permettra de positionner ou de définir sa taille suivant
-l'écran de la page de l'utilisateur. Nous avons définit 1rem pour 
+Ceux-ci permettront de positionner ou de définir sa taille suivant
+l'écran de la page de l'utilisateur. Nous avons défini 1rem pour 
 l'image (c'est à dire qu'il se déplace de 1rem vers la droite)
-Pour la div .rightbottom nous avons définit 0.5rem vers la gauche
-par rapport a la position du logo Saint Erembert.
-Ainsi l'emplacement entre chaque texte et définit de 3 rem vers la 
-droite. Pour le logo internet, j'ai définit position:fixed qui permettra 
+Pour la div .rightbottom nous avons défini 0.5rem vers la gauche
+par rapport à la position du logo Saint Erembert.
+Ainsi l'emplacement entre chaque texte est défini de 3 rem vers la 
+droite. Pour le logo internet, j'ai défini position:fixed qui permettra 
 de la mettre tout a droite de 2rem. 
 </value>
   </data>

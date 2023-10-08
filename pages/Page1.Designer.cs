@@ -42,7 +42,7 @@
             this.sText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.sText.Location = new System.Drawing.Point(410, 9);
             this.sText.Name = "sText";
-            this.sText.Size = new System.Drawing.Size(424, 285);
+            this.sText.Size = new System.Drawing.Size(424, 300);
             this.sText.TabIndex = 8;
             this.sText.Text = resources.GetString("sText.Text");
             // 

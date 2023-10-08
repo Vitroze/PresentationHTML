@@ -43,9 +43,9 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(427, 45);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Pour crée un bandeau tout en bas de la page. J\'ai modifié la balise \r\nfooter pour" +
-    " inclure plusieurs class dans mes textes excepté le dernier\r\noù il y avait aucun" +
-    " intérêt.";
+            this.label1.Text = "Pour créer un bandeau tout en bas de la page, j\'ai modifié la balise \r\nfooter pou" +
+    "r inclure plusieurs class dans mes textes excepté le dernier\r\noù il n\'y avait au" +
+    "cun intérêt.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1

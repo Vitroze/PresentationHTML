@@ -59,18 +59,19 @@
   </resheader>
   <data name="label1.Text" xml:space="preserve">
     <value>Voici le code CSS.
-Tout d'abord, nous commencerons pas la div .commentarydirector 
-qui permettra de définir l'emplacement du commentaire 
-display:flex permettra a l'élement de se comporter en "bloc" et collera
-son précédant.
+Tout d'abord, nous commencerons par la div .commentarydirector 
+qui permettra de définir l'emplacement du commentaire.
+display:flex permettra à l'élement de se comporter en "bloc" et collera
+son précédent.
 margin-right: permettra de positionner l'élement vers la droite.
-Suite a un soucis de taille du texte pour la class .sainterembert, j'étais obligé de faire 
-width:350% sinon cela se retourner a la ligne sans aucune raison (la box était trop petit).
+Suite à un soucis de taille de texte pour la class .sainterembert, 
+j'ai été obligé de faire width:350% sinon cela retournait a la ligne 
+sans aucune raison (la box était trop petite).
 
 Pour souligner le mot .visite en css, 
 j'ai utilisé la balise :
 * background-color avec la couleur aqua.
-Puis mettre le texte au centre de la box
+Puis j'ai mis le texte au centre de la box
 Avec un justify-content, j'ai mis la box au centre de la div 
 .commentarydirecotr
 </value>

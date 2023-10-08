@@ -41,11 +41,11 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(410, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(407, 45);
+            this.label1.Size = new System.Drawing.Size(402, 45);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Pour mettre du texte en souligner jaune, nous n\'avons pas besoin \r\nd\'utiliser le " +
-    "CSS. Nous allons utilisés une balise HTML qui est \r\n<mark>, elle permettra de so" +
-    "uligner un mot";
+            this.label1.Text = "Pour mettre du texte en souligné jaune, nous n\'avons pas besoin \r\nd\'utiliser le C" +
+    "SS. Nous allons utiliser une balise HTML qui est \r\n<mark>, elle permettra de sou" +
+    "ligner un mot";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1

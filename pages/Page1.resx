@@ -58,24 +58,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="sText.Text" xml:space="preserve">
-    <value>Dans un premier temps nous allons crée la balise &lt;!DOCTYPE html&gt;
+    <value>Dans un premier temps nous allons créer la balise &lt;!DOCTYPE html&gt;
 qui permettra de détecter l'HTML.
-Ainsi nous allons crée la deuxième balise qui est &lt;html&gt; (&lt;/html), 
+Ainsi nous allons créer la deuxième balise qui est &lt;html&gt; (&lt;/html&gt;), 
 elle permettra de prendre en compte toute la page html.
-Nous allons crée deux autres balises &lt;head&gt; qui permettra
+Nous allons implémenter deux autres balises &lt;head&gt; qui permettra
 de prendre tout ce qui est en haut de la page ("en tête")
-et &lt;body&gt; qui permettrea de prendre le contenu de la page.
-Dans le &lt;head&gt; nous allons définir sur quel façon dont le texte est
-transmis et stocké. Nous allons utilisés la balise 
+et &lt;body&gt; qui permettra de prendre le contenu de la page.
+Dans le &lt;head&gt; nous allons définir sur quelle façon dont le texte est
+transmis et stocké. Nous allons utiliser la balise 
 &lt;meta charset="utf-8" /&gt;
-&lt;title&gt; qui sera dans le &lt;head&gt; permettra définir un titre a l'onglet.
+&lt;title&gt; qui sera dans le &lt;head&gt;. Cela permettra de définir un titre à
+l'onglet.
 
 Ainsi dans le body, nous avons :
 &lt;img&gt; elle permettra de définir une image. Dans cette ligne nous 
 avons"deux arguments", qui sont la class (elle permettra de modifier
 l'image dans le css) et src qui permettra de localiser l'image.
 Nous avons : &lt;h2&gt; et &lt;h5&gt; qui permettra de définir du texte sur notre
-page. Dont &lt;h2&gt; est le plus grand en terme de taille d'écriture et 
+page dont &lt;h2&gt; est le plus grand en terme de taille d'écriture et 
 &lt;h5&gt; le plus petit</value>
   </data>
 </root>

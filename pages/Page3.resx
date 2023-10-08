@@ -57,4 +57,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pour pouvoir rajouter du texte, nous avons plusieurs solutions.
+Soit nous utilisons les balises de &lt;h1&gt; jusqu'à &lt;h6&gt;.
+Soit nous utilisons la balise &lt;p&gt; &lt;/p&gt;. 
+Nous allons utilisés &lt;p&gt;, cela permet d'avoir un code plus propre, 
+séparer et identifier correctement les paragraphes dans le code
+Pour faire un paragraphe, rien plus simple : soit nous mettons
+tous sur une seul ligne, niveau visibilité pour les développeurs cela
+n'est pas bien soit nous le mettons sur plusieurs lignes comme sur la
+capture d'écran à droite</value>
+  </data>
 </root>

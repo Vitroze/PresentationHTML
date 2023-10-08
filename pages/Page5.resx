@@ -57,4 +57,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pour mettre plusieurs mots toute a la fin de la page (même après un 
+zoom ou un dezoom). Nous devons utilisés la balise &lt;footer&gt; 
+&lt;/footer&gt; en dehors de la balise &lt;body&gt;
+
+Pour l'exercice 5, nous allons utilisés utilisés la balise &lt;h2&gt;
+pour afficher les mots.</value>
+  </data>
 </root>

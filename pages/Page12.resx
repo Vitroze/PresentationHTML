@@ -57,4 +57,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tout d'abord, j'ai définit un fond noir, une police d'écriture et un
+ texte blanc
+La position absolute, permet de positionner n'importe où notre 
+élément. J'ai augmenter de 2.5rem le bandeau noir avec le texte 
+depuis le bas de la page. Ainsi j'ai supprimé les deux côtés du 
+bandeau noir avec left et transform.
+
+Enfin j'ai espacer les textes avec margin-right toujours avec le
+même espacement.</value>
+  </data>
 </root>

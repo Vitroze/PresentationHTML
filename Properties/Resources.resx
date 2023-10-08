@@ -118,22 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="code9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code7_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code7_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\background_panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code9_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code9_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_next_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_next_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_back_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_back_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code6_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code6_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="background_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\background_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\button_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\button_close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="code1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\button_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_next_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\button_next_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="code1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\code1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="code10_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code10_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

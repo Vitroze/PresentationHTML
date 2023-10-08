@@ -9,6 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="pages\Page12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pages\Page5.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

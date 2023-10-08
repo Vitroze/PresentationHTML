@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentationHTML
+namespace PresentationHTML.pages
 {
-    public partial class Page1 : UserControl
+    public partial class Page3 : Form
     {
-        public Page1()
+        public Page3()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

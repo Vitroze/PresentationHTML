@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pour crée un bandeau nous avons besoin de modifier le code HTML
+pour inclure des class et des divs. Celui-ci permet de regrouper les
+élements HTML en 1 seul div. Les class permet de modifier 
+l'affichage côté CSS. Premièrement dans le code HTML nous allons 
+réunir ce qu'on a besoin en 1 seul div. Nous allons l'appeler upbottom. 
+Puis dans le div nous allons crée deux autres divs. Celui de 
+l'image et celui du rightbottom. Celui-ci permettra de gérer 
+l'espacement entre l'image et la liste des boutons.
+Nous allons crée plusieurs divs qui seront associés a un SEUL
+élement. Cela sert a responsive l'image (responsive =
+mettre correctement la position et les tailles a l'écran de 
+l'utilisateur.) Concernant les class du texte celui-ci 
+permettra de gérer l'espacement entre chaque texte et de 
+gérer la responsive.
+Pour pouvoir via une image ramener l'utilisateur sur la page
+internet google. lorsqu'il click nous allons crée un "hypertext" 
+qui permettra de diriger l'utilisateur vers la page. Pour cela 
+nous avons besoin de plusieurs arguments.
+* href, qui permettra de savoir dans quel direction va l'utilisateur
+* le target="_blank" permettra de l'ouvrir un nouvelle onglet.
+et la balise img qui permettra de pouvoir cliquer sur l'image</value>
+  </data>
 </root>

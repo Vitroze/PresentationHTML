@@ -22,6 +22,7 @@ namespace PresentationHTML
             base.Dispose(disposing);
         }
 
+
     #region Windows Form Designer generated code
 
     /// <summary>
@@ -30,12 +31,11 @@ namespace PresentationHTML
     /// </summary>
     private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.button_close = new System.Windows.Forms.Button();
             this.button_next = new System.Windows.Forms.Button();
             this.sTitle = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.sText = new System.Windows.Forms.Label();
+            this.DPanel_Main = new System.Windows.Forms.Panel();
+            this.button_back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_close
@@ -86,25 +86,31 @@ namespace PresentationHTML
             this.sTitle.TabIndex = 3;
             this.sTitle.Text = "HTML TP - Etape 1";
             // 
-            // panel1
+            // DPanel_Main
             // 
-            this.panel1.BackgroundImage = global::PresentationHTML.Properties.Resources.code1;
-            this.panel1.Location = new System.Drawing.Point(21, 172);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(383, 260);
-            this.panel1.TabIndex = 4;
+            this.DPanel_Main.BackColor = System.Drawing.Color.Transparent;
+            this.DPanel_Main.Location = new System.Drawing.Point(0, 105);
+            this.DPanel_Main.Name = "DPanel_Main";
+            this.DPanel_Main.Size = new System.Drawing.Size(836, 378);
+            this.DPanel_Main.TabIndex = 4;
             // 
-            // sText
+            // button_back
             // 
-            this.sText.AutoSize = true;
-            this.sText.BackColor = System.Drawing.Color.Transparent;
-            this.sText.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.sText.Location = new System.Drawing.Point(410, 109);
-            this.sText.Name = "sText";
-            this.sText.Size = new System.Drawing.Size(424, 285);
-            this.sText.TabIndex = 5;
-            this.sText.Text = resources.GetString("sText.Text");
+            this.button_back.BackColor = System.Drawing.Color.Transparent;
+            this.button_back.BackgroundImage = global::PresentationHTML.Properties.Resources.button_back;
+            this.button_back.FlatAppearance.BorderSize = 0;
+            this.button_back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_back.Location = new System.Drawing.Point(503, 431);
+            this.button_back.Name = "button_back";
+            this.button_back.Size = new System.Drawing.Size(64, 57);
+            this.button_back.TabIndex = 5;
+            this.button_back.UseVisualStyleBackColor = false;
+            this.button_back.Visible = false;
+            this.button_back.Click += new System.EventHandler(this.button_back_Click);
+            this.button_back.MouseLeave += new System.EventHandler(this.button_back_MouseExitHover);
+            this.button_back.MouseHover += new System.EventHandler(this.button_back_MouseHover);
             // 
             // HomePage
             // 
@@ -113,10 +119,10 @@ namespace PresentationHTML
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::PresentationHTML.Properties.Resources.background_image;
             this.ClientSize = new System.Drawing.Size(836, 509);
-            this.Controls.Add(this.sText);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.sTitle);
+            this.Controls.Add(this.button_back);
             this.Controls.Add(this.button_next);
+            this.Controls.Add(this.DPanel_Main);
+            this.Controls.Add(this.sTitle);
             this.Controls.Add(this.button_close);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HomePage";
@@ -132,7 +138,7 @@ namespace PresentationHTML
         private Button button_close;
         private Button button_next;
         private Label sTitle;
-        private Panel panel1;
-        private Label sText;
+        private Panel DPanel_Main;
+        private Button button_back;
     }
 }

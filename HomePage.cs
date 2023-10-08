@@ -1,8 +1,8 @@
 namespace PresentationHTML
 {
-    public partial class Form1 : Form
+    public partial class HomePage : Form
     {
-        public Form1()
+        public HomePage()
         {
             InitializeComponent();
             MessageBox.Show(this, "Ceci est une application expérimentale. Si il y a des problèmes merci de me le signaler", "Information - Developpement");
@@ -15,20 +15,21 @@ namespace PresentationHTML
 
         private void button_next_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test");
+            Application.Exit();
+
+            Page1 page1 = new Page1();
+            page1.ShowDialog();
         }
 
         private void button_next_MouseHover(object sender, EventArgs e)
         {
             this.Cursor = Cursors.Hand;
-            this.button_next.BackColor = System.Drawing.Color.Transparent;
             this.button_next.BackgroundImage = Properties.Resources.button_next_hover;
         }
 
         private void button_next_MouseExitHover(object sender, EventArgs e)
         {
             this.Cursor = Cursors.Default;
-            this.button_next.BackColor = System.Drawing.Color.Transparent;
             this.button_next.BackgroundImage = Properties.Resources.button_next;
         }
         private void button_close_Click(object sender, EventArgs e)
@@ -37,9 +38,17 @@ namespace PresentationHTML
             Application.Exit();
         }
 
-        private void button_next_Click_1(object sender, EventArgs e)
+        private void button_close_MouseHover(object sender, EventArgs e)
         {
-
+            this.Cursor = Cursors.Hand;
+            this.button_close.BackgroundImage = Properties.Resources.button_close_hover;
+        }
+        private void button_close_MouseExitHover(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+            this.button_close.BackgroundImage = Properties.Resources.button_close;
         }
     }
+            
+
 }

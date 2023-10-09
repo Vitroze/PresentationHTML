@@ -21,5 +21,10 @@ namespace PresentationHTML.pages
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -73,8 +73,7 @@ background-size:cover; --&gt; Met à l'échelle l'image
 petite possible pour remplir le conteneur
 background-attachment:fixed; Elle permettra de ne pas déplacer
 notre image si on doit zoomer, dézoomer, défiler en bas ou en haut.
-width et height:auto permet de définir la taille et la largeur 
-automatiquement. overflow:hidden; permet de cacher le texte ou 
+overflow:hidden; permet de cacher le texte ou 
 une image si elle dépasse un div ou autre. Attention celle-ci n'a pas 
 de barre de défilement.</value>
   </data>

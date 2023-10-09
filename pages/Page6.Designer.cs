@@ -44,7 +44,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(410, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(420, 285);
+            this.label1.Size = new System.Drawing.Size(420, 270);
             this.label1.TabIndex = 14;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -62,11 +62,12 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::PresentationHTML.Properties.Resources.code6_css;
-            this.pictureBox2.Location = new System.Drawing.Point(21, 194);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 194);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(383, 152);
+            this.pictureBox2.Size = new System.Drawing.Size(392, 152);
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Page6
             // 

@@ -51,9 +51,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::PresentationHTML.Properties.Resources.code9_css;
-            this.pictureBox1.Location = new System.Drawing.Point(79, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(79, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(240, 353);
+            this.pictureBox1.Size = new System.Drawing.Size(240, 380);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 

@@ -142,8 +142,8 @@
   <data name="code9_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\code9_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_next_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\button_next_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="code10_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\code10_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="code5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\code5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -153,6 +153,9 @@
   </data>
   <data name="code3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\code3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="code6_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\code6_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,10 +178,7 @@
   <data name="code1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\materials\code1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\button_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="code10_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\materials\code10_css.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_next_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\materials\button_next_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

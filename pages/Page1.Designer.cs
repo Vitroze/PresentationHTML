@@ -29,52 +29,51 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Page1));
-            this.sText = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            sText = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // sText
             // 
-            this.sText.AutoSize = true;
-            this.sText.BackColor = System.Drawing.Color.Transparent;
-            this.sText.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.sText.Location = new System.Drawing.Point(410, 9);
-            this.sText.Name = "sText";
-            this.sText.Size = new System.Drawing.Size(424, 300);
-            this.sText.TabIndex = 8;
-            this.sText.Text = resources.GetString("sText.Text");
+            sText.AutoSize = true;
+            sText.BackColor = Color.Transparent;
+            sText.Font = new Font("Montserrat", 8.999999F, FontStyle.Bold, GraphicsUnit.Point);
+            sText.ForeColor = Color.FromArgb(207, 232, 255);
+            sText.Location = new Point(406, 9);
+            sText.Name = "sText";
+            sText.Size = new Size(431, 320);
+            sText.TabIndex = 8;
+            sText.Text = resources.GetString("sText.Text");
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::PresentationHTML.Properties.Resources.code1;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(383, 260);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.BackgroundImage = Properties.Resources.code1;
+            pictureBox1.Location = new Point(21, 34);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(383, 260);
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
             // 
             // Page1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::PresentationHTML.Properties.Resources.background_panel;
-            this.ClientSize = new System.Drawing.Size(836, 379);
-            this.ControlBox = false;
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.sText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Page1";
-            this.ShowIcon = false;
-            this.Text = "Page1";
-            this.TransparencyKey = System.Drawing.Color.White;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            BackgroundImage = Properties.Resources.background_panel;
+            ClientSize = new Size(836, 379);
+            ControlBox = false;
+            Controls.Add(pictureBox1);
+            Controls.Add(sText);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Page1";
+            ShowIcon = false;
+            Text = "Page1";
+            TransparencyKey = Color.White;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

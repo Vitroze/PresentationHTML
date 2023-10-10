@@ -28,52 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(405, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(427, 45);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Pour créer un bandeau tout en bas de la page, j\'ai modifié la balise \r\nfooter pou" +
-    "r inclure plusieurs class dans mes textes excepté le dernier\r\noù il n\'y avait au" +
-    "cun intérêt.";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Montserrat", 8.999999F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.FromArgb(207, 232, 255);
+            label1.Location = new Point(405, 13);
+            label1.Name = "label1";
+            label1.Size = new Size(381, 48);
+            label1.TabIndex = 14;
+            label1.Text = "Pour créer un bandeau tout en bas de la page, j'ai modifié la \r\nbalise footer pour inclure plusieurs class dans mes textes \r\nexcepté le dernier où il n'y avait aucun intérêt.";
+            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::PresentationHTML.Properties.Resources.code10;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(377, 184);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.BackgroundImage = Properties.Resources.code10;
+            pictureBox1.Location = new Point(23, 80);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(377, 184);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Page11
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PresentationHTML.Properties.Resources.background_panel;
-            this.ClientSize = new System.Drawing.Size(836, 378);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Page11";
-            this.Text = "Page4";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.background_panel;
+            ClientSize = new Size(836, 378);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Page11";
+            Text = "Page4";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

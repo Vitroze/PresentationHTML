@@ -127,14 +127,15 @@ Pour cela nous avons utilisé plusieurs balises.
 margin:auto; pour adapter à tout écran et mettre l'image à
 la bonne dimension. background-image --&gt; Pour mettre l'image.
 background-repeat: no-repeat --&gt; Pour éviter de répeter l'image
-à l'infini. background-position:center --&gt; Pour centrer l'image
+à l'infini. background-position:center --&gt; Pour centrer l'image;
+background-position-y permet de déplacer l'image sur l'axe Y
 background-size:cover; --&gt; Met à l'échelle l'image 
 (tout en préservant ses proportions) à la taille la plus 
 petite possible pour remplir le conteneur
 background-attachment:fixed; Elle permettra de ne pas déplacer
-notre image si on doit zoomer, dézoomer, défiler en bas ou en haut.
-overflow:hidden; permet de cacher le texte ou 
-une image si elle dépasse un div ou autre. Attention celle-ci n'a pas 
-de barre de défilement.</value>
+notre image si on doit zoomer, dézoomer, défiler en bas ou en 
+haut. overflow:hidden; permet de cacher le texte ou 
+une image si elle dépasse un div ou autre. Attention celle-ci n'a 
+pas de barre de défilement.</value>
   </data>
 </root>

@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Pour créer un bandeau nous avons besoin de modifier le code HTML
-pour inclure des class et des divs. Celui-ci permet de regrouper les
-élements HTML en 1 seul div. Les class permettent de modifier 
-l'affichage côté CSS. Premièrement dans le code HTML nous allons 
-réunir tout ce dont on a besoin en 1 seul div. Nous allons l'appeler 
-upbottom. Puis dans le div nous allons créer deux autres divs, celui 
-de l'image et celui du rightbottom. Celui-ci permettra de gérer 
-l'espacement entre l'image et la liste des boutons.
+    <value>Pour créer un bandeau nous avons besoin de modifier le code 
+HTML pour inclure des class et des divs. Celui-ci permet de 
+regrouper les élements HTML en 1 seul div. Les class permettent 
+de modifier l'affichage côté CSS. Premièrement dans le code HTML
+nous allons réunir tout ce dont on a besoin en 1 seul div. Nous allons
+l'appeler upbottom. Puis dans le div nous allons créer deux autres 
+divs, celui de l'image et celui du rightbottom. Celui-ci permettra de 
+gérer l'espacement entre l'image et la liste des boutons.
 Nous allons créer plusieurs divs qui seront associés à un SEUL
 élement. Cela sert a responsive l'image (responsive =
 mettre correctement la position et les tailles a l'écran de 

@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Pour ajouter le paragraphe de la Directrice Mme.Lauby, nous allons 
-modifier le pagraphe que nous avons mis au début pour rajouter 
-un div et une class.
+    <value>Pour ajouter le paragraphe de la Directrice Mme.Lauby, nous 
+allons modifier le pagraphe que nous avons mis au début 
+pour rajouter un div et une class.
 
 Nous allons définir plusieurs groupes. 
 Le premier est celui du commentarydirector
@@ -128,6 +128,7 @@ qui permettra de regrouper tout le commentaire en 1 seul groupe.
 Nous définissons la class sainterembert pour le texte, le 
 positionnement, la police d'écriture, la taille.
 Nous avons la box1 où nous n'allons rien modifier côté CSS, juste 
-pour le regrouper et que la class visite soit en bas du commentaire.</value>
+pour le regrouper et que la class visite soit en bas du 
+commentaire.</value>
   </data>
 </root>

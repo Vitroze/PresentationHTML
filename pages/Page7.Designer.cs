@@ -42,7 +42,7 @@
             label1.ForeColor = Color.FromArgb(207, 232, 255);
             label1.Location = new Point(403, 0);
             label1.Name = "label1";
-            label1.Size = new Size(429, 320);
+            label1.Size = new Size(431, 320);
             label1.TabIndex = 14;
             label1.Text = resources.GetString("label1.Text");
             // 

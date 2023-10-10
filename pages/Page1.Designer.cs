@@ -40,9 +40,9 @@
             sText.BackColor = Color.Transparent;
             sText.Font = new Font("Montserrat", 8.999999F, FontStyle.Bold, GraphicsUnit.Point);
             sText.ForeColor = Color.FromArgb(207, 232, 255);
-            sText.Location = new Point(406, 1);
+            sText.Location = new Point(404, 1);
             sText.Name = "sText";
-            sText.Size = new Size(426, 320);
+            sText.Size = new Size(423, 320);
             sText.TabIndex = 8;
             sText.Text = resources.GetString("sText.Text");
             // 

@@ -136,7 +136,7 @@ avons"deux arguments", qui sont la class (elle permettra de
 modifier l'image dans le css) et src qui permettra de localiser 
 l'image. 
 Nous avons : &lt;h2&gt; et &lt;h5&gt; qui permettra de définir du texte sur 
-notre page dont &lt;h2&gt; est le plus grand en terme de taille d'écriture 
-et &lt;h5&gt; le plus petit</value>
+notre page dont &lt;h2&gt; est le plus grand en terme de taille 
+d'écriture et &lt;h5&gt; le plus petit</value>
   </data>
 </root>
